@@ -1,0 +1,310 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	border-color:#505050 !important;
+}
+
+#header h1
+{
+	color:white;
+	padding-bottom: 20px;
+}
+
+body
+{
+	background-color:#1C1C1C;
+	margin:1em 0 1em 0;
+	padding:0;
+	font-size:9pt;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:black;
+}
+
+#main
+{
+	background-color:white;
+	font-size:10pt;
+	min-height:400px;
+	width:800pt;
+	text-align:center;
+	margin:0 auto;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-webkit-border-radius: px px 6px 6px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-radius: 6px 6px px px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	position:relative;
+}
+
+#content
+{
+	border-style:solid;
+	border-width:1px;
+	width:90%;
+	border-color:#99826b;
+	margin:0.8em auto;
+	text-align:left;
+			background-color:#547A82 !important;
+	overflow:hidden;
+}
+
+#footwrapper
+{
+	padding-top:60px;
+}
+
+#footer
+{	
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	width:100%;
+	text-align:center;
+	font-size:90%;
+	padding:0.2em 0;
+	background-color:#547A82 !important;
+}
+
+#register-form
+{
+	text-align:center;
+	width:100%;
+}
+
+#register-form table
+{
+	width:100%;
+}
+
+#register-form input
+{
+	border:1px solid black;
+	border-radius:0;
+	width:300px;
+	background-color:white;
+}
+
+#nav{
+	width:100%;
+	position:relative;
+}
+
+#infob
+{
+	float:right;
+	width: 250px;
+	height:1.75em;
+	position:absolute;
+	top:0;
+	right:0;
+	font-size:11px;
+}
+
+#nav ul
+{
+	margin:0;
+	padding:0;
+	display:block;
+	list-style:none;
+	text-align:center;
+	height:1.75em;
+	font-size:11px;
+	background-color:#547A82;
+}
+
+#nav ul li
+{
+	display:inline-block;
+	text-align:center;
+	position:relative;
+}
+
+#nav ul li a
+{
+	text-decoration:none;
+	color:black;
+	font-weight:bolder;
+	display:block;
+	padding:2px 3ex;
+}
+
+#forum
+{
+	width:90%;
+	min-height:400px;
+	padding:10px;
+	border-color:#99826b;
+	margin:0.8em auto;
+	text-align:left;
+	background-color:;
+	overflow:hidden;
+}
+
+#head 
+{
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-radius: 6px 6px px px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	margin:0;
+	padding:0;
+	display:block;
+	list-style:none;
+	text-align:center;
+	height:1.75em;
+	font-size:15px;
+	background-color:silver !important;
+}
+
+#head ul li
+{
+	display:inline-block;
+	text-align:center;
+	position:relative;
+
+}
+
+#left
+{
+	float:left;
+	padding:3px;
+}
+#right
+{
+	
+	float:right;
+	padding:3px;
+}
+
+#fpost
+{
+padding:5px;
+}
+
+#fpost #usname
+{
+	text-align:left;
+}
+
+#fpost #pdate
+{
+	text-align:left;
+}
+
+ #fpcontent
+{
+	margin-left:20%;
+	margin-top:30px;
+	color:black;
+	height:100%;
+	position:relative;
+}
+
+hr.styled
+{
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #666, #ccc);
+}
+
+#topics
+{
+padding:5px;	
+}
+
+#topics h2{
+	font-size:15px;
+}
+
+#topics a, a:visited{
+	color:black;
+}
+
+#topics a:hover{
+	color:#547A82;
+}
+
+#cbox #usrbox
+{
+	padding:5px;
+	height:100%;
+	float:left;
+
+}
+
+#usrbox img
+{
+	border:1px solid black;
+	width:150px;
+	height:150px;
+}
+
+#cbox
+{	
+	min-height:200px;
+	position:relative;
+	overflow:hidden;
+}
+
+#sig{
+	width:100%;
+	display:inline-block;
+	vertical-align:bottom;
+	position:relative;
+	margin-left:190px;
+	margin-top:20px;
+}
+
+#cbox #fdate{
+	font-size:10px;
+  	position:absolute;
+  	bottom:0;
+  	right:0;
+}
+
+#sigtext{
+	
+}
+
+/*STATS*/
+
+#stats table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#stats th{
+	text-align:right;
+	 padding-left: 10px;
+	 padding-right:10px;
+	 padding-top:5px;
+	 width:15%;
+	 padding-bottom:5px;
+}
+
+#stats td{
+	padding-left:10px;
+}
+
+#stats table caption{
+		font-size:120%;
+	text-align:center;
+	background-color:silver;
+	border:solid 1px;
+	border-width:1px 1px 0 1px;
+	margin:1em auto 0 auto;
+	padding:2px 0;
+}
+
+#rules h2{
+	font-size:15px;
+}
