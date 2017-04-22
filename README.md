@@ -8,7 +8,7 @@ This software uses the outdated MYSQL standard rather than MYSQLi, and also uses
 Please do not use this software in a live project.
 
 # Installation
-Copy files, use install.sql.
+Copy files, use install.sql, change connect.php. 
 
 # License
 The Unlicense.
